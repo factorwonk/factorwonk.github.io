@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### Abhishek Das, Data Scientist with an interest in applied A.I.
 I'm a Data Scientist who graduated from General Assembly's Data Science Immersive course in October 2017. I used to work as a Quantitative Analyst and Portfolio Manager at Challenger and Dimensional Fund Advisors respectively. I used feature engineering and supervised machine learning methods, to test quantitative global equity market strategies. 
 
