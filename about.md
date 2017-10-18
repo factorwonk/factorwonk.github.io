@@ -14,4 +14,4 @@ I fell in love with Data Science a year ago after visiting the Strata Data confe
 Data Science brings together the best of statistical inference, algorithmic precision and distributed computing. I'm particularly excited about the applications of predictive machine learning techniques for businesses. This is why I chose to work with a startup on predicting drivers more likely to be involved in an accident.
 
 ### Contact me
-I'd love to hear from you! Get in touch via Email, connect on LinkedIn or message me on Twitter.
+I'd love to hear from you! Get in touch via Email, connect with me on LinkedIn or Twitter.
