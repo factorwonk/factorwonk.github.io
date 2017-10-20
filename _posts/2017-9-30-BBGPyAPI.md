@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Predicting house prices with the Ames Housing Dataset
+title: Using Bloomberg's Python API to manage quantitative equity portfolios
 ---
 
-**House Price prediction model**  <br />  <br />  Bad drivers cost insurers and transport companies money. Predicting which drivers will have accidents is difficult. [Academic research](https://eprints.qut.edu.au/47282/2/47282.pdf), on the impact of driver personality and cognition is focused on mature age drivers and remains untested against actual driving behavior. 
-
-[Fleetrisk](www.fleetrisk.com) screens new drivers based on cognitive, emotional and personality tests. In my sample, 394 of these drivers were monitored for six months on daily road trips, with vehicle telematics data collected from sensors fitted to their cars. 52 of these drivers had road accidents over this period. Can I use Feetrisk data to determine which drivers were more likely to have accidents? Are there patterns that allow me to predict which drivers will never have an accident?
+**Bloomberg Python API**  <br />  <br />  While not as well developed as their Excel, R or C++ APIs, Bloomberg's Python API can be used to download large sets of equities and subsequently used to manage portfolios of these equities. Note that use of this API requires a Bloomberg Terminal license and authorization from Bloomberg to bulk download their data. In this script, I provide the Python API with a list of equities and weights, download the relevant pricing data and manage global equity portfolios based on this.
 
 **Fleetrisk Data**
 
