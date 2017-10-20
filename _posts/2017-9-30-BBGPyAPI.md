@@ -3,9 +3,20 @@ layout: post
 title: Using Bloomberg's Python API to manage quantitative equity portfolios
 ---
 
-**Bloomberg Python API**  <br />  <br />  While not as well developed as their Excel, R or C++ APIs, Bloomberg's Python API can be used to download large sets of equities and subsequently used to manage portfolios of these equities. Note that use of this API requires a Bloomberg Terminal license and authorization from Bloomberg to bulk download their data. In this script, I provide the Python API with a list of equities and weights, download the relevant pricing data and manage global equity portfolios based on this.
+**Bloomberg Python API**  <br />  <br />  While not as well developed as their Excel, R or C++ APIs, Bloomberg's Python API can be used to retrieve large sets of equities at once. This is of particular interest to quantitative analysts and portfolio managers who invest in thousands of stocks at a time. Use of this API requires a Windows PC, a Bloomberg Terminal license and authorization from Bloomberg to bulk download their data. In this script, I provide the Python API with a list of equities and weights, download the relevant pricing data and manage global equity portfolios based on this.
 
-**Fleetrisk Data**
+**Setting Up**  <br />  <br /> 
+
+1. Download the 64 bit version of the [Anaconda2-5.0.0](https://repo.continuum.io/archive/) distribution. Python 2 is required for compatibility with the **tia** library.
+2. The **tia** package can be downloaded from <https://github.com/bpsmith/tia> and allows the BBG API to retrieve historical and intraday data into pandas dataframes.
+3. Bloomberg's Python 2.7 64 Bit Experimental release Binary installer available here: <https://www.bloomberg.com/professional/support/api-library/>
+4. Use your IDE of choice.
+
+You don't have to get the Anaconda distribution, but it does come with the most useful Python libraries pre-installed.
+
+**Installation**
+
+
 
 Transportation companies such as [Uber](http://www.uber.com), hire Fleetrisk to administer tests, similar to computerized hazard perception tests, to rank drivers by cognitive, empathy and personality traits. These factors align with the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality model and provides Fleetrisk with some understanding of the psychological makeup of potential drivers. 
 
