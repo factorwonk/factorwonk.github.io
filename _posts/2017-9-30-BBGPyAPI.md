@@ -20,10 +20,10 @@ You don't have to get the Anaconda distribution, but it does come with the most 
 2. Download and run the BBG Python API from the binary installer
 3. Install tia from the windows command prompt: **pip install -index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org tia**
 
-a. **pip** is a native installer which comes bundled with Anaconda2
-b. <pypi.python.org> stores python packages
-c. **trusted-host** prevents the pip installer checking for SSL security certificates which may prevent downloads
-d. Try this command instead if 3 doesn't work: **pip install --trusted-host pypi.python.org tia**
++ **pip** is a native installer which comes bundled with Anaconda2
++ <pypi.python.org> stores python packages
++ **trusted-host** prevents the pip installer checking for SSL security certificates which may prevent downloads
++ Try this command instead if 3 doesn't work: **pip install --trusted-host pypi.python.org tia**
 
 
 Transportation companies such as [Uber](http://www.uber.com), hire Fleetrisk to administer tests, similar to computerized hazard perception tests, to rank drivers by cognitive, empathy and personality traits. These factors align with the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality model and provides Fleetrisk with some understanding of the psychological makeup of potential drivers. 
