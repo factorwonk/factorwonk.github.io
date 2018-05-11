@@ -122,7 +122,7 @@ Figure 10
 </p>
 ![_config.yml]({{ site.baseurl }}/images/bcgdvtworoctrain.png) 
 
-**KNN Classifier on Training Data**
+**KNN Classifier on Test Data**
 
 Finally running the KNN Classifier on the test dataset, we find that it performs on par with a the Logistic Classifier. Both classifiers correctly classify 80% of clients as Class 1 or Class 0 on a dataset that was not optimized on.
 
@@ -133,6 +133,6 @@ Figure 11
 
 **Final Thoughts: Alternative approaches of tackling the imbalanced class problem**
 
-A simple logistic classifier correctly sorts clients into Class 1 or 0, 80% of the time while a K Nearest Neighbors Classifier gets this right 79% of the time on an out of sample dataset. I would be interested in exploring how a Random Forest Classifier or a Boosted Decision tree performed on this dataset but this woulc come at the cost of comprehensibility. 
+A simple logistic classifier correctly sorts clients into Class 1 or 0, 80% of the time while a K Nearest Neighbors Classifier gets this right 79% of the time on an out of sample dataset. I would be interested in exploring how a Random Forest Classifier or a Boosted Decision tree performed on this dataset but this non-linear comes with some cost to comprehensibility. 
 
 I used the ROC curve given its insensitivity to imbalanced classes. An alternative technique is the synthesis of new minority classes using Chawla’s SMOTE (Synthetic Minority Oversampling Technique) system. The idea is to create new minority examples by interpolating between existing ones. A disadvantage of SMOTE is that it operates by interpolating between minority examples, so it can only generate examples within the body of available examples—never outside. The relevant library can be found [here](https://github.com/scikit-learn-contrib/imbalanced-learn)
