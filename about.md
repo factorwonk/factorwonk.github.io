@@ -12,7 +12,7 @@ My new career has allowed me to tackle a myriad of interesting problems. I consu
 Throughout my work, I have engaged directly with stakeholders at all levels. At BCG DV, I provide in person, monthly Data Science updates to venture board members on our current endeavors. I have also presented to diverse audiences at academic and investor conferences. I love working on challenging problems with smart but kind people. My long term goal is to be an A.I. Engineer.
 
 ### Resume
-A link to a PDF of [my resume](/AD_DS_Resume.pdf)
+A link to a PDF of [my resume](/AD_DS_CV_2018.pdf)
 
 ### Connect
 I'd love to hear from you! Please use the links below to get in touch.
